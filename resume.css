@@ -1,0 +1,149 @@
+.side {
+
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 2000px;
+   
+}
+
+.mainp {
+        margin-left: 400px;
+        margin-right:0;
+        border-left: 20px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+}
+
+.titl {
+    text-align: center;
+    
+}
+
+.mainp p {
+    font-size: large;
+    background-color: rgb(172, 204, 233);
+    margin-top: 10px;
+
+
+}
+
+.propic {
+
+        width: 100px;
+        border-radius: 100%;
+        margin: 10px 300px 25px 100px;
+
+}
+
+h1 {
+
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 0;
+
+}
+h2 {
+    font-size: x large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.head3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.head4 {
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight:lighter;
+}
+
+.cont {
+
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        background-color: rgb(192, 192, 192);
+}
+.cont1 {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    background-color: grey;
+}
+
+.cont2 {
+        
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color:  rgb(192, 192, 192);
+
+}
+
+.more {
+        margin-top: 35px;
+        margin-bottom: 14px;
+}
+
+.lin {
+    font-size: 20px;
+    margin-right: 10x; 
+    margin-left: 20px;
+}
+.alle {
+
+    display:flex;
+    flex-direction: row;
+
+}
+
+@media only screen and (max-width: 800px){
+        
+     .side 
+    {
+        width: 40vw;
+        height:100vh
+    }
+    
+
+    .propic {
+        width: 50px;
+        border-radius: 100%;
+        margin: 5px 30px 10px 50px;
+    }
+    
+    .titl {
+        font-size: middle;
+        text-align: left;
+    }
+    .mainp {
+            margin-left: 41.4%;
+    }
+
+    .lin {
+        font-size: 20px;
+        margin-right: 25px; 
+        margin-left: 25px;
+    }
+
+    .alle {
+
+            display:flex;
+            flex-direction: row;
+
+    }
+
+}
