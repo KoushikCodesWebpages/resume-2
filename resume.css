@@ -4,13 +4,13 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 400px;
-    height: 2000px;
+    width: 30vw;
+    height: 1000px;
    
 }
 
 .mainp {
-        margin-left: 400px;
+        margin-left: 30vw;
         margin-right:0;
         border-left: 20px;
         margin-top: 0;
@@ -100,21 +100,15 @@ h2 {
 
 .lin {
     font-size: 20px;
-    margin-right: 10x; 
-    margin-left: 20px;
-}
-.alle {
-
-    display:flex;
-    flex-direction: row;
-
+    margin-right: 100px; 
+    margin-left: 200px;
 }
 
 @media only screen and (max-width: 800px){
         
      .side 
     {
-        width: 40vw;
+        width: 30vw;
         height:100vh
     }
     
